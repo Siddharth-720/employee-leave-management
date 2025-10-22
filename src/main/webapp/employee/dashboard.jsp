@@ -51,7 +51,7 @@
             <button type="submit">Apply</button>
         </form>
 
-        <h3>Leave History of Emp</h3>
+        <h3>Leave History</h3>
         <% 
             LeaveDao leaveDao = new LeaveDao();
             List<Leave> leaves = leaveDao.getLeaveHistory(user.getId());
